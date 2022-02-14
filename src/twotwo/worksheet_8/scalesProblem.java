@@ -4,15 +4,15 @@ import java.util.ArrayList;
 
 public class scalesProblem {
 	public static void main(String[] args) {
-//		for (int i = 0; i<10; i++) {
-//			double x = CS2004.UR(-1, 1);
-//			System.out.println(x);
-//		}
-//		
-//		ScalesSolution s = new ScalesSolution("10101");
-//		s.println();
-//		s = new ScalesSolution("10101x");
-//		s.println();
+		for (int i = 0; i<10; i++) {
+			double x = CS2004.UR(-1, 1);
+			System.out.println(x);
+		}
+		
+		ScalesSolution s = new ScalesSolution("10101");
+		s.println();
+		s = new ScalesSolution("10101x");
+		s.println();
 		
 		ArrayList<Double> weights = new ArrayList<Double>(), primeNumbers = new ArrayList<Double>();
 		
